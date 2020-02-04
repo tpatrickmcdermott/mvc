@@ -142,7 +142,7 @@ class View {
     }
 
     // Debugging
-    console.log(todos)
+    console.table(todos)
   }
 
   _initLocalListeners() {
